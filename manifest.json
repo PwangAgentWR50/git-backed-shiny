@@ -135,9 +135,9 @@
       "GithubSha1": null,
       "description": {
         "Package": "digest",
-        "Author": "Dirk Eddelbuettel <edd@debian.org> with contributions \n by Antoine Lucas, Jarek Tuszynski, Henrik Bengtsson, Simon Urbanek,\n Mario Frasca, Bryan Lewis, Murray Stokely, Hannes Muehleisen,\n Duncan Murdoch, Jim Hester, Wush Wu, Qiang Kou, Thierry Onkelinx, \n Michel Lang, Viliam Simko, Kurt Hornik, Radford Neal, and Kendon Bell.",
-        "Version": "0.6.20",
-        "Date": "2019-07-04",
+        "Author": "Dirk Eddelbuettel <edd@debian.org> with contributions \n by Antoine Lucas, Jarek Tuszynski, Henrik Bengtsson, Simon Urbanek,\n Mario Frasca, Bryan Lewis, Murray Stokely, Hannes Muehleisen,\n Duncan Murdoch, Jim Hester, Wush Wu, Qiang Kou, Thierry Onkelinx, \n Michel Lang, Viliam Simko, Kurt Hornik, Radford Neal, Kendon Bell,\n and Matthew de Queljoe.",
+        "Version": "0.6.21",
+        "Date": "2019-09-19",
         "Maintainer": "Dirk Eddelbuettel <edd@debian.org>",
         "Title": "Create Compact Hash Digests of R Objects",
         "Description": "Implementation of a function 'digest()' for the creation \n of hash digests of arbitrary R objects (using the 'md5', 'sha-1', 'sha-256', \n 'crc32', 'xxhash', 'murmurhash' and 'spookyhash' algorithms) permitting easy\n comparison of R language objects, as well as functions such as'hmac()' to\n create hash-based message authentication code. Please note that this package\n is not meant to be deployed for cryptographic purposes for which more\n comprehensive (and widely tested) libraries such as 'OpenSSL' should be\n used.",
@@ -148,10 +148,10 @@
         "Suggests": "tinytest, knitr, rmarkdown",
         "VignetteBuilder": "knitr",
         "NeedsCompilation": "yes",
-        "Packaged": "2019-07-04 13:26:33.39935 UTC; edd",
+        "Packaged": "2019-09-19 10:37:39.11891 UTC; edd",
         "Repository": "CRAN",
-        "Date/Publication": "2019-07-04 14:40:03 UTC",
-        "Built": "R 3.6.0; x86_64-apple-darwin15.6.0; 2019-07-05 13:52:35 UTC; unix"
+        "Date/Publication": "2019-09-20 23:20:04 UTC",
+        "Built": "R 3.6.0; x86_64-apple-darwin15.6.0; 2019-09-21 12:57:37 UTC; unix"
       }
     },
     "fastmap": {
@@ -547,6 +547,9 @@
     }
   },
   "files": {
+    "app.R": {
+      "checksum": "c5b5db8b6c9a07bd85bdcbf02e2947c0"
+    },
     "packrat/desc/BH": {
       "checksum": "69bf0a81cb33351308fcbfaa3c25d3bb"
     },
@@ -554,7 +557,7 @@
       "checksum": "b24ecaa8a9670c0265dba74ec47767ba"
     },
     "packrat/desc/digest": {
-      "checksum": "e896332f85d5311017ecd5c2619738af"
+      "checksum": "7e27c89876fd132a08e6d4dc8a404f71"
     },
     "packrat/desc/fastmap": {
       "checksum": "4e344da2e68e3103468eaa3c165fbfc6"
@@ -599,13 +602,7 @@
       "checksum": "526e6f7be3cf3228226e3aab27258be6"
     },
     "packrat/packrat.lock": {
-      "checksum": "a293c4421d013da4f1650b0d9195b7ab"
-    },
-    "server.R": {
-      "checksum": "0774a70aed40e48e32c190975ceb1cc3"
-    },
-    "ui.R": {
-      "checksum": "34e6ad644dfdf41ab74c2d5809a325fb"
+      "checksum": "97cdc90b34dd5dc9b30df40073360194"
     }
   },
   "users": null
