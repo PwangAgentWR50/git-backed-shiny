@@ -3,7 +3,7 @@
 library(shiny)
 
 # Define UI for application that plots random distributions 
-shinyUI(fluidPage(
+ui <- shinyUI(fluidPage(
   
   # Application title
   titlePanel("Hello Shiny!"),
@@ -27,7 +27,7 @@ shinyUI(fluidPage(
      
 
 # Define server logic required to generate and plot a random distribution
-shinyServer(function(input, output) {
+server <- function(input, output, session) {
    
   # Expression that generates a plot of the distribution. The expression
   # is wrapped in a call to renderPlot to indicate that:
@@ -44,3 +44,5 @@ shinyServer(function(input, output) {
   })
   
 })
+
+shinyApp(ui, server)
