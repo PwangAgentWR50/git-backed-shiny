@@ -43,6 +43,6 @@ server <- function(input, output, session) {
     hist(dist)
   })
   
-})
+}
 
 shinyApp(ui, server)
